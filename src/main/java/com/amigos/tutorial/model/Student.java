@@ -6,6 +6,7 @@ import java.time.LocalDate;
 @Entity
 @Table
 public class Student {
+
     @Id
     @SequenceGenerator(
             name = "student_sequence",
